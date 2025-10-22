@@ -5,16 +5,33 @@ body {
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
 }
 
+nav{ font-weight:bold;
+    font-size:medium;
+}
+
 div.side-by-side {
     display: flex;
+   
 }
 
 img {
-    width: 59%;
+    width: 50%;
     max-width: 500px;
 }
 
 .featureBlock {
     background-color:pink;
     font-size: smaller;
+    width: 60%;
+}
+
+figure {
+    img {
+        width: 100% }
+    margin:auto;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }
